@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <title>Bank fuer Sozialwirtschaft</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/series-label.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+</head>
+
+<body>
+  <!-- ***** Header Area Start ***** -->
+  <header class="animated fixed-top">
+    <div class="dropdown-open header_area  container-fluid">
+      <div class="dropdown-open row">
+        <!-- Menu Area Start -->
+        <div class="col-12 col-lg-12">
+          <div class="menu_area">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+              <!-- Logo -->
+              <a class="navbar-brand" href="#"><img src="img/logo-t2.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+              <!-- Menu Area -->
+              <div class=" text-center collapse navbar-collapse justify-content-end" id="ca-navbar">
+                <ul class="navbar-nav ml-auto" id="nav">
+                  <li class="nav-item active"><a class="nav-link" href="#home">Angebot</a></li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Über uns</a>
+                    <div class="dropdown-menu btn-secondary" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Team</a></div>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="#features">Expertise</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#screenshot">Service</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#pricing">BFS insight</a></li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resouces</a>
+                    <div class="dropdown-menu btn-secondary" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Download annual reports</a>
+                      <a class="dropdown-item" href="#">Download disclosure reports</a>
+                    </div>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+                </ul>
+                <div class="menu-padding">
+                  <button type="button" class=" login-button btn btn-outline-primary">Login</button>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <div class="d-flex  align-items-center text-center vh-100 banner">
+    <div class=" container">
+      <div class="row">
+        <!-- #banner-text start -->
+        <div class="col-md-12 text-c text-center">
+          <h3>How may we support you?</h3>
+          <form action="/explore" method="get" class="gtmSupport">
+            <h1 class="text"> Ich möchte </h1>
+            <select class="login-button form-control btn btn-primary  dropdown-toggle">
+              <option>investieren</option>
+              <option>leihen</option>
+            </select>
+            <h1 class="text">und möchte mehr erfahren über</h1>
+            <select class="login-button form-control btn btn-primary dropdown-toggle">
+              <option>Beratung</option>
+              <option>Finanzierung</option>
+              <option>Geldanlage</option>
+              <option>Konto & Zahlungverkehr</option>
+              <option>Dienstleistungen</option>
+              <option>Fundraising</option>
+            </select>
+            <button type="button" class=" form-control login-button btn btn-primary submit">
+              <h5 class="d-inline">Go</h5> <i class="fas fa-chevron-circle-right"></i>
+            </button>
+          </form>
+        </div>
+        <!-- /#banner-text End -->
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex  align-items-center vh-100 bg-1 align-middle">
+    <div class=" container">
+      <div class="row">
+        <div class="col-lg-6 bg-1 middle-align ">
+          <h3 class="left-borders  ">Mit Neukreditzusagen in Höhe von 868,3 Mio. EUR verlief das Kreditgeschäft sehr erfolgreich.</h3>
+          <div class="middle-align text-center">
+            <a class="btn btn-outline-light">Geschäftsbericht 2017 <i class="fas fa-arrow-circle-down"></i></a>
+            <a class="btn btn-outline-light " href="https:www.youtube.com" role="button">Offenlegungsbericht 2017 <i class="fas fa-arrow-circle-down"></i></a>
+          </div>
+
+        </div>
+        <div class="col-lg-6 image-data align-items-center  text-center">
+          <h1>Forderungen an Kunden</h1>
+          <div class="increase" id="container"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex  align-items-center vh-100 bg-2 align-middle">
+    <div class=" container">
+      <div class="row">
+        <div class="col-lg-6 align-items-center  text-center">
+          <h1>Einlagen von Kunden</h1>
+          <div id="containerx" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        </div>
+        <div class="col-lg-6  middle-align ">
+          <h3 class="right-borders  ">Mit Neukreditzusagen in Höhe von 868,3 Mio. EUR verlief das Kreditgeschäft sehr erfolgreich.</h3>
+          <div class=" middle-align text-center">
+            <a class=" btn btn-outline-light">Geschäftsbericht 2017 <i class="fas fa-arrow-circle-down"></i></a>
+            <a class="btn btn-outline-light ">Offenlegungsbericht 2017 <i class="fas fa-arrow-circle-down"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ***** Video Area Start ***** -->
+  <div class="video-section d-flex  align-items-center vh-100 bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!-- Video Area Start -->
+          <div class="video-area">
+            <div class="video-play-btn">
+              <a href="https://www.youtube.com/watch?v=HWxfoZUudcw" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <h1 class="bg-1 text text-center"> 20 Years Of Experience</h1>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div id="contact" class="section-padding contact-section bg-2 d-flex  align-items-center vh-100 bg-1 align-middle">
+    <div class=" container">
+      <div class="row">
+        <div class="col-lg-12 bg-1 text-center">
+          <div class="section-title text-center">
+            <h2>Team</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 bg-1 middle-align ">
+          <form id="contact-form" action="mail.php" method="post" class="contact-form bg-white">
+            <div class="row">
+              <div class="col-lg-6 form-group">
+                <input type="text" class="form-control2" name="name" required placeholder="Name">
+              </div>
+              <div class="col-lg-6 form-group">
+                <input type="email" class="form-control2" name="email" required placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control2" name="subject" required placeholder="Subject">
+            </div>
+
+            <div class="form-group">
+              <textarea name="message" id="" class="form-control2" required placeholder="Message"></textarea>
+            </div>
+            <div class="form-btn text-center">
+              <button class="form-control login-button btn btn-primary" type="submit">Send Message</button>
+              <p class="form-message"></p>
+            </div>
+          </form>
+
+        </div>
+
+
+        <div class="col-lg-6 bg-1 image-data align-items-center  middle-align text-center section-padding pb-70 team-area ">
+          <div class="single-team   ">
+            <div class="team-thumb  ">
+              <img class="w-75" src="../img/team-1.png" alt="">
+              <div class="team-social">
+                <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
+                <a target="_blank" href="#"><i class="fab fa-pinterest"></i></a>
+              </div>
+            </div>
+            <div class="team-content">
+              <h4>Stephanie Rüth</h4>
+              <span>Leiterin Unternehmenskommunikation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--#start Our footer Area -->
+  <div class="our_footer_area">
+    <div class="book_now_aera ">
+      <div class="container wow fadeInUp">
+        <div class="row book_now">
+          <div class="col-md-4">
+            <div class="">
+              <a class=" logo-biss" href="index.html"> <img src="../img/logo-t2.png"></a>
+            </div>
+            <p class="footer-text">Die Bank für Sozialwirtschaft AG konzentriert sich als Universalbank ganz auf das Geschäft mit Unternehmen, Verbänden, Stiftungen und anderen Organisationen.</p>
+            <div class="footer-social">
+              <a href="" target="_blank"><i id="social-fb" class="fab fa-facebook-square fa-3x social"></i></a>
+              <a href="" target="_blank"><i id="social-tw" class="fab fa-twitter-square fa-3x social"></i></a>
+              <a href="" target="_blank"><i id="social-em" class="fab fa-instagram fa-3x social"></i></a>
+            </div>
+          </div>
+          <div class="col-md-1 ">
+          </div>
+          <div class="col-md-3">
+            <h2 class="footer-top">Angebot </h2>
+            <ul class="footer-menu">
+              <li><a href="https://www.sozialbank.de/angebot/beratung.html"> Beratung</a></li>
+              <li><a href="https://www.sozialbank.de/angebot/finanzierung.html"> Finanzierung</a> </li>
+              <li><a href="https://www.sozialbank.de/angebot/geldanlage.html">Geldanlage</a> </li>
+              <li><a href="https://www.sozialbank.de/angebot/konto-zahlungsverkehr.html">konto & zahlungsverkehr </a> </li>
+              <li><a href="https://www.sozialbank.de/angebot/fundraising.html">Fundraising</a> </li>
+              <li><a href="https://www.sozialbank.de/angebot/dienstleistungen.html">Dienstleistungen</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="location">
+              <li class="footer-left-h"><i class="fas fa-map-marker-alt"></i> Robert Koch Str 505, Demo, <br>NJ 08837, Deutschland</li>
+              <li class="footer-left-h"><i class=" fas fa-phone-volume "></i>Call Us <br>+49- 681 717 52
+                <br>+49- 681 717 52
+              </li>
+              <li class="footer-left-h"><i class="fas fa-envelope"></i>Email<br>
+                <a href=""> hello@insignio.de </a></br><a href="">hello@insignio.de </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--#End Our footer Area -->
+
+  <!-- <script  src="js/bundle.js"></script> -->
+<script type="text/javascript" src="js/bundle.js"></script></body>
+
+</html>
