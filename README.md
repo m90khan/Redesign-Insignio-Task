@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://m90khan.github.io/Redesign-Insignio-Task/dist/index.html">
-    <img src="dist/img/logo-t2.png" alt="Logo" width="120" height="120">
+    <img src="dist/img/logo-t2.png" alt="Logo" width="50" height="30">
   </a>
 
   <h3 align="center">Insignio   </h3>
